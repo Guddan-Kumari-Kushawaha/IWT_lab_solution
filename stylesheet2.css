@@ -1,0 +1,20 @@
+*{
+    background-color: white;
+    color: black;
+    background-image: url("IWT_LAB/images/13.jpeg");
+}
+body{
+    background-color: aqua;
+    /* background-image: url("IWT_LAB/images/13.jpeg"); */
+    /* background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size:contain ; */
+    background-color: white;
+        background-color: linear-gradient;
+        color: azure;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

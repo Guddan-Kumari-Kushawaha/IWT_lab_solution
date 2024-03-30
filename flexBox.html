@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(117, 166, 223);
+            color: white;
+            font-size: 40px;
+            font-weight: 400;
+            margin: 10px;
+        }
+        .container{
+            display: flex;
+            width: auto;
+            height: 100vh;
+            background-color: aquamarine;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content:space-evenly;
+            align-content:space-evenly ;
+        }
+        .container div{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            border:black 10px double;
+        }
+        .d1{
+            position: relative;
+             left:50px; 
+             /* padding:50px; */
+        }
+        .d1 img{
+            height: 100%;
+            width:100%;
+            position: absolute;
+            
+            
+        }
+        .d2:hover{
+           transform:rotate(360deg) scale(1) translate(200px) ;
+           /* transform: scale(2); */
+           transition: 2s;
+           background-color: rgb(192, 34, 197);
+           color: rgb(150, 15, 60);
+           /* text-shadow: 0 0 20px white; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <div class="d1 " style="background-color: rgb(127,50,180)">
+            <img src="IWT_LAB/images/14.jpeg"/ class="d2">  
+            <span style="z-index: 10;"> 1</span>
+        </div>
+        <div class="d2">
+            2
+        </div>
+        <div>
+            3
+        </div>
+        <div>
+            4
+        </div>
+        <div>
+            5
+        </div>
+        <div>
+            6
+        </div>
+        <div>
+            7        
+        </div>
+        <div>
+            8
+        </div>
+    </div>
+</body>
+</html>

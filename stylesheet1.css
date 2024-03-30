@@ -1,0 +1,67 @@
+body{
+    background-color: aqua;
+    background-image: url("IWT_LAB/images/13.jpeg"),url("IWT_LAB/images/2.jpeg");
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size:300px,contain ;
+    background-position: center center,0 center;
+    color:rgb(142, 187, 156) ,rgba(16, 150, 150, 0.8);
+    word-spacing: 5px;
+    background-blend-mode: lighten;
+    
+    #p1 {
+        background-color: rgba(17, 5, 17, 0.6);
+        background-color: linear-gradient;
+        color: azure;
+        text-shadow: 0.5px;
+        /* text-decoration-line: line-through; */
+        text-decoration-line: underline;
+        line-height: 2;
+        
+
+    }
+    .class1{
+        background-color: rgba(78, 34, 78, 0.9);
+        background-color: linear-gradient;
+        color: rgb(175, 252, 252);
+    }
+    p{
+        background-color: linear-gradient;
+        background-color: rgb(221, 252, 252,.8);
+        color: black;
+        /* line */
+    }
+
+}
+h2{
+    color:rgb(107, 4, 55);
+}
+div{
+    height:200px;
+    width: 200px;
+    color: rgb(107, 4, 55);
+    font-size: 30px;
+    border-style: dashed;
+    border-color: black;
+    margin: 20px;
+    border-width: 10px;
+    padding: 30px 20px 20px;
+    border-radius: 30px;
+    
+}
+.red{
+    width:350px;
+    background-color: red;
+    border-radius: 50%;
+    outline: rgb(207, 255, 134) 10px solid;
+    outline-offset: 5px;
+    box-shadow: 0 0 1000px brown;
+}
+.blue{
+    background-color: blue;
+    border-radius: 15%;
+}
+.outer{
+    height:auto;
+    width:auto;
+}

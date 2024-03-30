@@ -1,0 +1,46 @@
+body{
+    color:rgb(37, 155, 155);
+    background-color: rgb(206, 224, 245);
+    /* background-image: url(IWT_LAB/images/14.jpeg); */
+}
+div{
+    height:auto;
+    width: auto;
+    color: rgb(107, 4, 55);
+    font-size: 30px;
+    border-style: solid;
+    /* border-color: black; */
+    border-image: url(IWT_LAB/images/23.jpeg);
+    border-image-repeat: repeat;
+    border-image-width: 2px;
+    margin: 20px;
+    border-width: 15px;
+    padding: 30px 20px 20px;
+    /* border-radius: 30px; */
+    float:left;
+    /* outline-offset: 5px; */
+    outline: auto;
+    font-weight: bold;
+
+}
+.red{
+    width:200px;
+    height:200px;
+    background-color: red;
+    /* border-radius: 50%; */
+    /* outline: rgb(207, 255, 134) 10px solid;
+    outline-offset: 5px;
+    box-shadow: 0 0 1000px brown; */
+}
+.blue{
+    width:200px;
+    height:200px;
+    background-color: rgb(83, 83, 146);
+    /* border-radius: 15%; */
+}
+.outer{
+    height:auto;
+    width:auto;
+    border: solid;
+    border-width: 5px;
+}

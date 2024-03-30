@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+    <!-- 1/2/24 -->
+    <fieldset>
+        <legend>Login Info</legend>
+        <label for="username"> User  Name</label>
+        <input type="text" name="username" placeholder="Enter user name" />
+        <br><label for="pass"> Password</label>
+        <input type="password" name="pass" placeholder="Enter password" />
+        <br><label for="age"> Age</label>
+        <input type="number" name="age"  value="151"/>
+    </fieldset><br>
+    <textarea name="address" rows="5" ></textarea>
+    <br>
+    <label for="state"> State </label>
+    <label for="city"> City </label>
+    <input ttpe="text" name="city" list="ct" /><br>
+    <datalist id="ct">
+        <option>Jaipur</option>
+        <option>Jodhpur</option>
+        <option>Jaisalmer</option>
+    </datalist>
+    <select name="state" size="2">
+        <option>Assam</option>
+        <option>Uttar Pradesh</option>
+        <option>Bihar</option>
+        <option>Madhay Pradesh</option>
+        <option>Gujarat</option>
+    </select>
+    <br>
+    <input type="Reset" name="reset" value="Reset" />
+    <input type="Submit" name="sbmit" value="Login" />
+    <input type="button" value="Register"/>
+   </form> 
+</body>
+</html>
